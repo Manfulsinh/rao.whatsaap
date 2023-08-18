@@ -12,9 +12,6 @@ export class StatusPage implements OnInit {
   ngOnInit() {
   }
 
-  changeStatus(){
-    console.log('fdafdafdsa');
-    
-  }
+ 
 
 }
