@@ -1,0 +1,132 @@
+
+.container-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 36px;
+}
+
+.avatar-upload {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.avatar-edit {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(37, 211, 102, 0.7);
+    border: 2px solid #2dd36f;
+    border-radius: 50%;
+    padding: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &:hover, &:focus {
+        background: #2dd36f;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+    }
+
+    ion-icon {
+        color: #fff;
+        font-size: 21px;
+        transition: color 0.3s ease;
+
+        &:hover, &:focus {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    ion-input {
+        display: none;
+    }
+}
+
+.avatar-preview {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+
+    ion-avatar {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+ion-item {
+    --border-width: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --inner-padding-end: 15px;
+    --inner-padding-start: 15px;
+    border: 1px solid #f2f2f2;
+    padding: 18px;
+}
+
+.profile-details {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 28px;
+    padding-bottom: 20px;
+    margin-top: 43px;
+}
+
+ion-icon[slot="start"] {
+    font-size: 24px;
+    color: #666666;
+  
+    margin-left: 15px;
+}
+
+.profile-detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.profile-detail p {
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+ion-icon[name="create-outline"] {
+    font-size: 20px;
+    color: #2dd36f;
+    cursor: pointer;
+    padding: 5px;  /* Increased clickable area */
+    border-radius: 50%;  /* Make the padded area circular */
+}
+
+ion-icon[name="create-outline"]:hover {
+    color: #0056b3;
+    background: rgba(0, 123, 255, 0.1);  
+}
+
+
+.ion-color-primary {
+    --ion-color-base: #128C7E !important;
+    --ion-color-base-rgb: var(
+  --ion-color-primary-rgb, 56, 128, 255) !important;
+    --ion-color-contrast: var(
+  --ion-color-primary-contrast, #fff) !important;
+    --ion-color-contrast-rgb: var(
+  --ion-color-primary-contrast-rgb, 255, 255, 255) !important;
+    --ion-color-shade: var(
+  --ion-color-primary-shade, #3171e0) !important;
+    --ion-color-tint: var(
+  --ion-color-primary-tint, #4c8dff) !important;
+}

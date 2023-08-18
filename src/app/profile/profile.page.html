@@ -1,0 +1,58 @@
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="setting"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container-s">
+
+    <div class="avatar-upload">
+
+       <div class="avatar-edit">
+     <ion-label for="imageUpload"> <ion-icon name="camera-outline"></ion-icon></ion-label>
+      </div>
+
+    <div class="avatar-preview">
+        <ion-avatar id="imagePreview" style="background-image: url('../../assets/img/whatsaap.jpeg');"></ion-avatar>
+      </div>
+
+    </div>
+    
+   <ion-list class="profile-details">
+   <ion-item lines="full">
+        <ion-icon name="person-sharp" slot="start"></ion-icon>
+         <ion-label>Name</ion-label>
+         <div slot="end" class="profile-detail">
+            <p>Manful</p>
+            <ion-icon name="create-outline"></ion-icon>
+         </div>
+      </ion-item>
+   
+      <ion-item lines="full">
+        <ion-icon name="alert-circle-sharp" slot="start"></ion-icon>
+         <ion-label>About</ion-label>
+         <div slot="end" class="profile-detail">
+            <p>In a meeting.</p>
+            <ion-icon name="create-outline"></ion-icon>
+         </div>
+      </ion-item>
+   
+      <ion-item lines="full">
+         <ion-icon name="call-sharp" slot="start"></ion-icon>
+         <ion-label>Phone</ion-label>
+         <div slot="end" class="profile-detail">
+            <p>+91 9977720957</p>
+            <ion-icon name="create-outline"></ion-icon>
+         </div>
+      </ion-item>
+   
+   </ion-list>
+   
+
+  </div>
+</ion-content>

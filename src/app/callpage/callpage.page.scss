@@ -1,0 +1,86 @@
+
+
+
+/* call start*/
+
+ion-icon[name="call-received-outline"] {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+ion-icon[name="call-outline"] {
+    color: #25D366; 
+}
+ion-segment-button.md.in-toolbar.in-toolbar-color.in-segment.in-segment-color.segment-button-layout-icon-top.ion-activatable.ion-activatable-instant.ion-focusable.hydrated {
+    color: aliceblue;
+}
+
+
+
+ion-fab-button {
+    --background: #25D366; 
+}
+
+
+
+ion-avatar {
+    --border-radius: 50%;
+    --size: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+ion-label h2 {
+ 
+    margin-bottom: -12px;
+}
+
+
+ion-icon[name="call-received-outline"] {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+ion-label p {
+    font-size: 14px;
+    color: #888; 
+    display: flex;
+    align-items: center;}
+
+
+ion-button {
+    --background: transparent; 
+    --border-color: transparent;
+    --box-shadow: none;
+    --border-radius: 50%;
+}
+
+ion-icon[name="call-outline"] {
+    color: #25D366;
+    font-size: 24px; 
+}
+
+
+.ion-color-primary {
+    --ion-color-base: #128C7E !important;
+    --ion-color-base-rgb: var(
+  --ion-color-primary-rgb, 56, 128, 255) !important;
+    --ion-color-contrast: #ffffff !important;
+    --ion-color-contrast-rgb: var(
+  --ion-color-primary-contrast-rgb, 255, 255, 255) !important;
+    --ion-color-shade: #222428 !important;
+    --ion-color-tint: #989aa2 !important;
+}
+/* call and */
+
+
+
+
+
+
+
+
+

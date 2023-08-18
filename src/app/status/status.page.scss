@@ -1,0 +1,89 @@
+/* status start */
+
+
+
+
+
+ion-toolbar {
+    --background: #075E54;
+    --color: #ffffff; 
+}
+
+.ion-color-primary {
+    --ion-color-base: #128C7E !important;
+    --ion-color-base-rgb: var(
+  --ion-color-primary-rgb, 56, 128, 255) !important;
+    --ion-color-contrast: #ffffff !important;
+    --ion-color-contrast-rgb: var(
+  --ion-color-primary-contrast-rgb, 255, 255, 255) !important;
+    --ion-color-shade: #222428 !important;
+    --ion-color-tint: #989aa2 !important;
+}
+
+ion-segment {
+    
+    --indicator-color: #ffffff;
+    color: aliceblue;
+    border-radius: 5px;
+   
+}
+
+
+
+ion-segment-button {
+    
+    font-size: 14px;
+    color: #ffffff
+}
+
+/* Content */
+ion-content {
+    --background: #ECE5DD;
+}
+
+
+ion-item {
+    --min-height: 70px;
+    --background: #ffffff; 
+}
+
+ion-avatar img {
+    border-radius: 50%; 
+}
+
+ion-label {
+    --color: #4B4B4B;
+}
+
+
+
+ion-list-header {
+    --background: #DCDCDC;
+    --color: #4B4B4B;
+}
+
+
+ion-fab-button {
+    --background: #25D366; 
+}
+
+ion-icon[name="camera-outline"] {
+    font-size: 24px;
+}
+
+
+
+ion-list-header[_ngcontent-ng-c3489566202] {
+    --background: #DCDCDC;
+    --color: #4B4B4B;
+    margin-top: -13px;
+}
+
+
+ion-label[_ngcontent-ng-c3489566202] {
+    --color: #4B4B4B;
+    font-size: 19px;
+}
+
+
+/* status and */
