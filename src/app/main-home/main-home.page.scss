@@ -27,58 +27,6 @@ ion-icon {
     font-size: 25px;
 }
 
-/* Chat content styling */
-.chat-container {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.message {
-    padding: 10px 15px;
-    border-radius: 10px;
-    max-width: 65%;
-    position: relative;
-    font-size: 0.9rem;
-}
-
-.sent {
-    background-color: #DCF8C6;
-    align-self: flex-end;
-    border-top-right-radius: 3px;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-
-.received[_ngcontent-ng-c2195474158] {
-    background-color: #d7d8da;
-    align-self: flex-start;
-    border-top-left-radius: 3px;
-    border-bottom-right-radius: 10px;
-    margin-right: auto;
-   
-}
-
-.metadata {
-    display: flex;
-    align-items: center;
-    font-size: 0.7rem;
-    margin-top: 8px;
-    color: #888888;
-}
-
-.time {
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-ion-icon[name="checkmark-done-outline"] {
-    font-size: 0.8rem;
-    color: #34B7F1;
-}
 .ion-color-primary {
     --ion-color-base: #128C7E !important;
     --ion-color-base-rgb: var(
@@ -90,35 +38,61 @@ ion-icon[name="checkmark-done-outline"] {
     --ion-color-tint: #989aa2 !important;
 }
 
-ion-footer {
-    --background: #F0F0F0;
+
+
+
+
+
+
+
+
+ion-content {
+    background-color: #f4f4f4;
 }
 
-ion-toolbar {
-    --background: #F0F0F0;
-    --border-top: 1px solid #ddd;
-}
 
-ion-input {
-    --background: #FFFFFF;
-    border-radius: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    --placeholder-color: #8E8E93;
-    --placeholder-opacity: 1;
-    --padding-start: 15px;
-    --padding-end: 15px;
-    margin: 0 10px;
-}
-
-ion-button {
-    --background: transparent;
-}
-
-ion-title[_ngcontent-ng-c2195474158] {
+.sent {
+    background-color: #383a3e21;;
+    color: black;
+    border-radius: 7px 7px 0 7px; 
+    margin: 8px 5px 8px auto;
+    padding: 8px 14px;
+    display: inline-block;  position: relative; 
+  
    
-    color: #ffffff;
-    margin-left: -23px;
 }
 
-/* chat pages and */
+.sent ion-icon {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    font-size: 12px; 
+}
+
+
+.received {
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 7px 7px 7px 0; 
+    margin: 8px auto 8px 5px;
+    padding: 8px 14px;
+    display: inline-block; 
+  
+    position: relative; 
+}
+
+.time {
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    color: grey; 
+}
+
+.received .time {
+    left: 5px; 
+}
+
+.sent .time {
+    right: 5px;
+    color: white;
+}
