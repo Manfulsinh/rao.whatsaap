@@ -18,18 +18,18 @@
   </ion-toolbar>
   <ion-toolbar color="primary">
     <ion-segment mode="md" color="light">
-    
-      <ion-segment-button value="chat" checked defaultHref="main-home">
+      <ion-segment-button value="chat" [routerLink]="['/home']">
         Chat
-      </ion-segment-button>
-      <ion-segment-button value="status" defaultHref="status">
-        Status
-      </ion-segment-button>
-      <ion-segment-button value="calls" defaultHref="callpage">
-        Call
-      </ion-segment-button>
+    </ion-segment-button>
+        <ion-segment-button value="status" [routerLink]="['/status']">
+            Status
+        </ion-segment-button>
+        <ion-segment-button value="calls" [routerLink]="['/callpage']">
+            Call
+        </ion-segment-button>
     </ion-segment>
-  </ion-toolbar>
+</ion-toolbar>
+
 </ion-header>
 
 <ion-content>
@@ -162,10 +162,11 @@
   </ion-item>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button>
+    <ion-fab-button [routerLink]="['/setting']">
       <ion-icon name="camera-outline"></ion-icon>
     </ion-fab-button>
   </ion-fab>
+  
 </ion-content> 
 
 <!-- status and -->

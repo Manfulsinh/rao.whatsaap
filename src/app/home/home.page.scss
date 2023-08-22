@@ -1,82 +1,29 @@
-
-
-/* chat pages starrt*/
-ion-header {
-    --background: #075E54;
-}
-
 ion-toolbar {
-    --padding-start: 10px;
-}
-
-ion-avatar {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
-ion-title {
-    font-weight: bold;
-    color: #ffffff;
-}
-
-ion-icon {
-    font-size: 25px;
-}
-
-/* Chat content styling */
-.chat-container {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.message {
-    padding: 10px 15px;
-    border-radius: 10px;
-    max-width: 65%;
-    position: relative;
-    font-size: 0.9rem;
-}
-
-.sent {
-    background-color: #DCF8C6;
-    align-self: flex-end;
-    border-top-right-radius: 3px;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-
-.received[_ngcontent-ng-c2195474158] {
-    background-color: #d7d8da;
-    align-self: flex-start;
-    border-top-left-radius: 3px;
-    border-bottom-right-radius: 10px;
-    margin-right: auto;
+    --ion-color-primary: #075E54;
+  }
+  
+  ion-segment-button {
+    --ion-color-light: #ECE5DD;
+    --ion-segment-button-checked-background: #075E54;
+    --ion-segment-button-checked-color: #ECE5DD;
+  }
+  
+  
+  ion-segment[_ngcontent-ng-c3489566202] {
+    --background: rgba(255, 255, 255, 0.2);
+    --indicator-color: #ffffff;
+    --color: #ffffff;
+    border-radius: 5px;
    
-}
 
-.metadata {
-    display: flex;
-    align-items: center;
-    font-size: 0.7rem;
-    margin-top: 8px;
-    color: #888888;
-}
 
-.time {
-    margin-right: 5px;
-    margin-left: 5px;
-}
+  }
 
-ion-icon[name="checkmark-done-outline"] {
-    font-size: 0.8rem;
-    color: #34B7F1;
+
+  ion-segment-button.md.in-toolbar.in-toolbar-color.in-segment.in-segment-color.segment-button-layout-icon-top.ion-activatable.ion-activatable-instant.ion-focusable.hydrated {
+    color: aliceblue;
 }
-.ion-color-primary {
+  .ion-color-primary {
     --ion-color-base: #128C7E !important;
     --ion-color-base-rgb: var(
   --ion-color-primary-rgb, 56, 128, 255) !important;
@@ -86,41 +33,19 @@ ion-icon[name="checkmark-done-outline"] {
     --ion-color-shade: #222428 !important;
     --ion-color-tint: #989aa2 !important;
 }
-
-ion-footer {
-    --background: #F0F0F0;
-}
-
-ion-toolbar {
-    --background: #F0F0F0;
-    --border-top: 1px solid #ddd;
-}
-
-ion-input {
-    --background: #FFFFFF;
-    border-radius: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    --placeholder-color: #8E8E93;
-    --placeholder-opacity: 1;
-    --padding-start: 15px;
-    --padding-end: 15px;
-    margin: 0 10px;
-}
-
-ion-button {
-    --background: transparent;
-}
-
-ion-title[_ngcontent-ng-c2195474158] {
-    /* font-weight: bold; */
-    color: #ffffff;
-    margin-left: -23px;
-}
-
-
-
-
-
-
-/* chat pages and */
+  
+  // ion-content {
+  //   --ion-background-color: #ECE5DD;
+  // }
+  
+  ion-fab-button {
+    --background: #25D366; 
+    --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  ion-icon[name="add"] {
+    --color: #ffffff;
+    --font-size: 28px;
+  }
+  
+  
